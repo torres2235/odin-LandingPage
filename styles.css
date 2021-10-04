@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+}
+.header,
+.footer {
+    background-color: #1F2937;
+    padding: 16px 64px;
+}
+
+.main-image {
+    width: 600px;
+    height: 350px;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-right: auto;
+}
+
+.subtext,
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3382F6;
+    border: none;
+    border-radius: 8px;
+
+    padding: 5px 25px;
+}
+
+.top,
+.right-links,
+.intro {
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 64px;
+}
+
+.right-links {
+    margin-left: auto;
+    gap: 30px;
+}
+
+.intro {
+    gap: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+}
+
+.subimage {
+    width: 250px;
+    height: 200px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+}
+
+.quote-section {
+    background-color: #E5E7E8;
+    padding: 150px;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.quote-speaker {
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.call-to-action {
+    color: white;
+    background-color: #3382F6;
+    margin: 40px 160px;
+    padding: 40px 100px;
+    border-radius: 8px;
+
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.action{
+    margin: 0;
+}
+
+.bottom-button {
+    margin-left: auto;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+
+}
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937
+}
